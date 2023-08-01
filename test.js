@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 
 app.get("/",(req,res)=>{
-    res.send("Hello GIT!!!")
+    res.send("Hello GIT 3000!!!")
 })
 
 app.listen(3000,()=>{
